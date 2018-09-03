@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="../../img/bb-favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        
+
+        <title>Simon</title>
+
+    </head>
+
+    <body>
+        <audio id="redSound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+</audio>
+<audio id="blueSound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+</audio>
+<audio id="yellowSound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+</audio>
+<audio id="greenSound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+</audio>
+<audio id="wrong">
+  <source src="http://res.cloudinary.com/dgkjkxny5/video/upload/v1516225327/341732__sgtpepperarc360__wrong-answer_wwazrh.wav" type="audio/wav">
+</audio>
+<audio id="success">
+  <source src="http://res.cloudinary.com/dgkjkxny5/video/upload/v1517181158/361263__japanyoshithegamer__8-bit-correct-answer_hzt7fi.wav" type="audio/wav">
+</audio>
+
+
+
+
+<div id="base">
+  <div id="inner">
+    <div class="row">
+      <div id="green" class="button"></div>
+      <div id="red" class="button"></div>
+    </div>
+    <div class="row">
+      <div id="yellow" class="button"></div>
+      <div id="blue" class="button"></div>
+    </div>
+    <div id="center">
+      <div id="title">SIMON</div>
+      <div id="buttons">
+        <div id="top-buttons">
+          <div align="center" class="float-left">
+            <div id="counter"><span id="counterText"></span></div>
+            <div>Count</div>
+          </div>
+          <div align="center" class="float-left">
+            <div id="startButton"></div>
+            <div><span id="starttext">Start</span></div>
+          </div>
+          <div align="center" class="float-left">
+            <div id="strictIndicator"></div>
+            <div id="strictButton"></div>
+            <div><span id="stricttext">Strict</span></div>
+          </div>
+        </div>
+        <br>
+         <div id="bottom-buttons">
+          
+          <div id="onoff">
+            <span id="off">OFF</span>
+            <div id="switch">
+              
+            </div>
+            <span id="on">ON</span>
+          </div>
+        </div>
+        
+
+      </div>
+
+    </div>
+  </div>
+
+        
+
+
+        <script type="text/javascript" src="../../js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+
+    
+
+ </html>
